@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Cristian Zgone - Web Developer</title>
+
+    <meta
+      name="description"
+      content="Cristian Zgone – IT graduate skilled in modern web technologies. Open to opportunities across development, tech support, QA and more."
+    />
+
+    <!-- Open Graph for social media -->
+    <meta
+      property="og:title"
+      content="Cristian Zgone – Web Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Explore projects built with JavaScript, React, Firebase and more."
+    />
+    <meta
+      property="og:image"
+      content="https://czgone.github.io/assets/img/portfolio/profile.webp"
+    />
+    <meta property="og:url" content="https://czgone.github.io" />
+    <meta property="og:type" content="website" />
+
+    <!-- LOCAL STYLES -->
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendor/devicon/devicon.min.css" />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Cristian Zgone",
+        "jobTitle": "IT Graduate & Web Developer",
+        "url": "https://czgone.github.io",
+        "sameAs": [
+          "https://github.com/krisztian-Z",
+          "https://linkedin.com/in/cristian-zgone"
+        ]
+      }
+    </script>
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page">
+    <!-- Header -->
+    <header
+      id="header"
+      class="header d-flex flex-column align-items-center justify-content-between"
+    >
+      <!-- Profile Picture -->
+      <div class="profile-img text-center mt-4">
+        <img
+          src="assets/img/portfolio/profile.webp"
+          alt="Cristian Zgone"
+          class="img-fluid rounded-circle"
+        />
+      </div>
+
+      <!-- Social Links -->
+      <div class="social-links text-center">
+        <a
+          href="https://github.com/krisztian-Z"
+          class="github"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="bi bi-github"></i>
+        </a>
+        <a
+          href="https://linkedin.com/in/cristian-zgone"
+          class="linkedin"
+          target="_blank"
+          title="LinkedIn Profile"
+        >
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+
+      <!-- Navigation -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="#hero" class="active" title="Go to Home section">Home</a>
+          </li>
+          <li><a href="#about" title="Go to About section">About</a></li>
+          <li>
+            <a href="#portfolio" title="Go to My Work section">My Work</a>
+          </li>
+          <li><a href="#contact" title="Go to Contact section">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- hamburger menu for mobile -->
+      <div class="header-toggle d-xl-none" id="mobile-menu-toggle">
+        <i class="bi bi-list"></i>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content container">
+          <h1 class="sitename">Cristian Zgone – IT Graduate & Web Developer</h1>
+
+          <p>
+            Passionate about building sleek, responsive web applications and
+            crafting user-centric digital experiences.
+          </p>
+          <div class="hero-buttons">
+            <a
+              href="#portfolio"
+              class="hero-btn"
+              title="Go to portfolio section"
+              >My Work</a
+            >
+
+            <a
+              href="assets/files/cv_cristian_zgone.pdf"
+              target="_blank"
+              class="hero-btn"
+              title="View my resume in PDF format"
+              >View CV</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <div class="container about-container">
+          <div class="about-text text-center">
+            <h2>About Me</h2>
+            <p>
+              I'm a Computing graduate who thrives on creativity, curiosity, and
+              code. Whether it's crafting intuitive interfaces or solving
+              complex logic behind the scenes, I enjoy every part of the
+              process. What drives me most is the constant evolution of tech,
+              there’s always something new to learn. Outside of the screen,
+              you’ll find me hiking with my dogs, exploring new places, and
+              learning about different cultures.
+            </p>
+          </div>
+
+          <div class="tech-grid">
+            <div class="tech-card">
+              <i class="devicon-html5-plain colored"></i><span>HTML</span>
+            </div>
+            <div class="tech-card">
+              <i class="devicon-css3-plain colored"></i><span>CSS</span>
+            </div>
+            <div class="tech-card">
+              <i class="devicon-javascript-plain colored"></i
+              ><span>JavaScript</span>
+            </div>
+            <div class="tech-card">
+              <i class="devicon-react-original colored"></i><span>React</span>
+            </div>
+            <div class="tech-card">
+              <i class="devicon-nodejs-plain colored"></i><span>Node.js</span>
+            </div>
+            <div class="tech-card">
+              <i class="devicon-express-original colored"></i
+              ><span>Express.js</span>
+            </div>
+            <div class="tech-card">
+              <i class="devicon-mongodb-plain colored"></i><span>MongoDB</span>
+            </div>
+            <div class="tech-card">
+              <i class="devicon-firebase-plain colored"></i
+              ><span>Firebase</span>
+            </div>
+            <div class="tech-card">
+              <i class="devicon-git-plain colored"></i><span>Git</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
+        <div class="portfolio-bg"></div>
+        <div class="container">
+          <h2 class="text-center text-white mb-5">My Work</h2>
+
+          <!-- Portfolio Filters -->
+          <ul class="portfolio-filters">
+            <li class="filter-active" data-filter="*">All</li>
+            <li data-filter=".web">Web</li>
+            <li data-filter=".firebase">Firebase</li>
+          </ul>
+
+          <!-- Portfolio Grid -->
+          <div class="row portfolio-container">
+            <!-- Project 1 -->
+            <div class="col-md-6 portfolio-item web">
+              <div class="portfolio-content">
+                <div class="swiper project-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a
+                        href="assets/img/portfolio/peak_music_festival.webp"
+                        class="glightbox"
+                      >
+                        <img
+                          src="assets/img/portfolio/peak_music_festival.webp"
+                          class="img-fluid"
+                          alt="Peak Music Festival 1"
+                          width="600"
+                          height="400"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="assets/img/portfolio/festival_2.webp"
+                        class="glightbox"
+                      >
+                        <img
+                          src="assets/img/portfolio/festival_2.webp"
+                          class="img-fluid"
+                          alt="Peak Music Festival 2"
+                          width="600"
+                          height="400"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="assets/img/portfolio/festival_3.webp"
+                        class="glightbox"
+                      >
+                        <img
+                          src="assets/img/portfolio/festival_3.webp"
+                          class="img-fluid"
+                          alt="Peak Music Festival 3"
+                          width="600"
+                          height="400"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="portfolio-info">
+                  <h4>Peak Music Festival</h4>
+                  <p class="project-type">Landing Page</p>
+                  <p class="project-desc">
+                    A promotional website for a fictional music festival, built
+                    with HTML, CSS, and JavaScript. Designed to convey the
+                    event’s vibrant atmosphere and fully responsive across all
+                    devices.
+                  </p>
+                  <a
+                    href="https://krisztian-z.github.io/peak_music_festival/"
+                    class="preview-link"
+                    target="_blank"
+                    title="Preview Peak Music Festival project"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-md-6 portfolio-item firebase">
+              <div class="portfolio-content">
+                <div class="swiper project-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a
+                        href="assets/img/portfolio/solent_student_blog.webp"
+                        class="glightbox"
+                      >
+                        <img
+                          src="assets/img/portfolio/solent_student_blog.webp"
+                          class="img-fluid"
+                          alt="Solent Blog 1"
+                          width="600"
+                          height="400"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="assets/img/portfolio/blog2.webp"
+                        class="glightbox"
+                      >
+                        <img
+                          src="assets/img/portfolio/blog2.webp"
+                          class="img-fluid"
+                          alt="Solent Blog 2"
+                          width="600"
+                          height="400"
+                        />
+                      </a>
+                    </div>
+                    <div class="swiper-slide">
+                      <a
+                        href="assets/img/portfolio/blog_3.webp"
+                        class="glightbox"
+                      >
+                        <img
+                          src="assets/img/portfolio/blog_3.webp"
+                          class="img-fluid"
+                          alt="Solent Blog 3"
+                          width="600"
+                          height="400"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="portfolio-info">
+                  <h4>Solent Student Blog</h4>
+                  <p class="project-type">Firebase / Full-stack</p>
+                  <p class="project-desc">
+                    A blog platform for students, created using Firebase for
+                    authentication and Firestore as the database. Users can
+                    write, edit, and delete their own posts, and the UI is
+                    designed for simplicity and readability.
+                  </p>
+                  <a
+                    href="https://solentstudentblog.web.app/"
+                    class="preview-link"
+                    target="_blank"
+                    title="Preview Solent Student Blog project"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- GitHub Projects Section -->
+        <div class="text-center mt-4 explore-more">
+          <p>
+            <span>Explore more on</span>
+            <a href="https://github.com/krisztian-Z" target="_blank"
+              >my GitHub profile</a
+            >.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <div class="container">
+          <div class="row gy-4">
+            <!-- Contact Info -->
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info-wrap w-100">
+                <div class="info-item d-flex">
+                  <i class="bi bi-envelope"></i>
+                  <div>
+                    <h3>Email</h3>
+                    <p>
+                      <a href="mailto:czgone@yahoo.co.uk">czgone@yahoo.co.uk</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="info-item d-flex">
+                  <i class="bi bi-telephone"></i>
+                  <div>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+447963332227">+44 0796 333 2227</a></p>
+                  </div>
+                </div>
+
+                <div class="info-item d-flex">
+                  <i class="bi bi-geo-alt"></i>
+                  <div>
+                    <h3>Location</h3>
+                    <p>Sheffield, UK<br />(Open to relocation)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-lg-7 d-flex align-items-stretch">
+              <form
+                action="https://formspree.io/f/mnnvnvpp"
+                method="POST"
+                class="php-email-form w-100"
+              >
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Your Name"
+                      required
+                      autocomplete="name"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Your Email"
+                      required
+                      autocomplete="email"
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <input
+                      type="text"
+                      name="subject"
+                      class="form-control"
+                      placeholder="Subject"
+                      required
+                      autocomplete="off"
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <textarea
+                      name="message"
+                      rows="6"
+                      class="form-control"
+                      placeholder="Message"
+                      required
+                      autocomplete="off"
+                    ></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="container text-center">
+        <p>
+          &copy; <span id="year"></span> Cristian Zgone. All rights reserved.
+        </p>
+      </div>
+      <a
+        href="#"
+        title="Scroll to top"
+        class="scroll-top d-flex align-items-center justify-content-center"
+      >
+        <i class="bi bi-arrow-up-short"></i>
+      </a>
+    </footer>
+
+    <!-- filters -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const filterButtons = document.querySelectorAll(
+          ".portfolio-filters li"
+        );
+        const portfolioItems = document.querySelectorAll(".portfolio-item");
+
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            // Set active class
+            filterButtons.forEach((btn) =>
+              btn.classList.remove("filter-active")
+            );
+            button.classList.add("filter-active");
+
+            const filter = button.getAttribute("data-filter");
+
+            portfolioItems.forEach((item) => {
+              if (
+                filter === "*" ||
+                item.classList.contains(filter.replace(".", ""))
+              ) {
+                item.style.display = "block";
+              } else {
+                item.style.display = "none";
+              }
+            });
+          });
+        });
+      });
+    </script>
+
+    <!-- active link -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const sections = document.querySelectorAll("section[id]");
+        const navLinks = document.querySelectorAll(".navmenu ul li a");
+
+        function updateActiveLink() {
+          let currentSectionId = "";
+
+          sections.forEach((section) => {
+            const rect = section.getBoundingClientRect();
+            if (rect.top <= 150 && rect.bottom >= 150) {
+              currentSectionId = section.getAttribute("id");
+            }
+          });
+
+          navLinks.forEach((link) => {
+            link.classList.remove("active");
+            if (link.getAttribute("href") === `#${currentSectionId}`) {
+              link.classList.add("active");
+            }
+          });
+        }
+
+        window.addEventListener("scroll", updateActiveLink);
+        window.addEventListener("resize", updateActiveLink);
+        updateActiveLink(); // Rulează și la încărcare
+      });
+    </script>
+
+    <!-- swipe for pics in projects -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .querySelectorAll(".project-swiper")
+          .forEach((swiperContainer) => {
+            new Swiper(swiperContainer, {
+              loop: true,
+              autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+              },
+              effect: "fade",
+              speed: 800,
+            });
+          });
+      });
+    </script>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
